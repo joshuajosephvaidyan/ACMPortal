@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/ACMPortal/static/css/main.113d679b.css",
-    "main.js": "/ACMPortal/static/js/main.8927b090.js",
-    "static/js/415.7eda1284.chunk.js": "/ACMPortal/static/js/415.7eda1284.chunk.js",
-    "static/js/787.1ddd6a20.chunk.js": "/ACMPortal/static/js/787.1ddd6a20.chunk.js",
-    "static/media/coverimage.png": "/ACMPortal/static/media/coverimage.dddd45d4f61684d6f0be.png",
-    "static/media/dummyman.png": "/ACMPortal/static/media/dummyman.de02e1b446bc823dfa7d.png",
+    "main.js": "/ACMPortal/static/js/main.fef7eb68.js",
+    "static/js/415.a5951fdf.chunk.js": "/ACMPortal/static/js/415.a5951fdf.chunk.js",
+    "static/js/787.d3be2abd.chunk.js": "/ACMPortal/static/js/787.d3be2abd.chunk.js",
     "static/media/dummy.png": "/ACMPortal/static/media/dummy.5295ad88204710895684.png",
     "static/media/Sansation_Light.ttf": "/ACMPortal/static/media/Sansation_Light.4b0e0e7199c58c7cc1d3.ttf",
     "static/media/bluemarker.png": "/ACMPortal/static/media/bluemarker.6032419517c1d529e73c.png",
@@ -13,12 +11,12 @@
     "static/media/ACMlogo.jfif": "/ACMPortal/static/media/ACMlogo.13f7d081fe9cafd83928.jfif",
     "index.html": "/ACMPortal/index.html",
     "main.113d679b.css.map": "/ACMPortal/static/css/main.113d679b.css.map",
-    "main.8927b090.js.map": "/ACMPortal/static/js/main.8927b090.js.map",
-    "415.7eda1284.chunk.js.map": "/ACMPortal/static/js/415.7eda1284.chunk.js.map",
-    "787.1ddd6a20.chunk.js.map": "/ACMPortal/static/js/787.1ddd6a20.chunk.js.map"
+    "main.fef7eb68.js.map": "/ACMPortal/static/js/main.fef7eb68.js.map",
+    "415.a5951fdf.chunk.js.map": "/ACMPortal/static/js/415.a5951fdf.chunk.js.map",
+    "787.d3be2abd.chunk.js.map": "/ACMPortal/static/js/787.d3be2abd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.113d679b.css",
-    "static/js/main.8927b090.js"
+    "static/js/main.fef7eb68.js"
   ]
 }
