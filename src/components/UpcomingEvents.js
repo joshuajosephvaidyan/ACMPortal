@@ -36,7 +36,7 @@ function UpcomingEvents(props) {
                   <span>{props.des}</span>
                 </div>
                 <div>
-                  <span style={{fontWeight:'bold'}}>Description: </span>
+                  <span style={{fontWeight:'bold'}}>Registration: </span>
                   <span><a href={props.formlink}>{props.formlink}</a></span>
                 </div>
                 <div>
