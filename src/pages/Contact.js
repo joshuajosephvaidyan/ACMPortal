@@ -10,7 +10,7 @@ function Contact() {
           <div className="col-12 col-lg-5 d-flex flex-column justify-content-center">
               <span className="mx-4 h1" style={{fontWeight:'700',color:'#0093D1',marginTop:'-3rem'}}>Write To Us at</span>
               <span className="mx-4 h3" style={{fontWeight:'600',color:'darkgrey'}}>
-                  xyz@nomail.com
+                  vecacmcse@gmail.com
               </span>    
           </div>
           <div className="col-12 col-lg-7 d-flex flex-column align-items-center justify-content-center">

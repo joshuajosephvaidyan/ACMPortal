@@ -9,18 +9,7 @@ function Gallery() {
         <NavBar page="gallery"/>
         <div className="pt-5 row">
            <span className="h2 d-flex justify-content-center align-items-center pb-4" style={{fontWeight:'bolder',color:'#0093D1'}}>Gallery</span>
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
-           <GalleryImage />
         </div>
-        <ParticleBackground />
     </div>
   )
 }

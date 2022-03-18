@@ -4,6 +4,7 @@ import Events from './pages/Events';
 import Members from './pages/Members';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import Achievers from './pages/Achievers';
 import {HashRouter as Router,Switch,Route} from 'react-router-dom';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route match exact path="/contact">  
              <Contact />
+          </Route>
+          <Route match exact path="/achievers">  
+             <Achievers />
           </Route>
         </Switch>  
       </div>

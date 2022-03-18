@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-function NavBar(props) {
-  var college ="http://velammal.edu.in"
+function NavBarTs(props) {
+  var college = "http://velammal.edu.in/"
   return (
     <div className="container-fluid mb-5">
-        <nav className="navbar navbar-fluid fixed-top navbar-expand-lg navbar-light bg-white">
+        <nav className="navbar navbar-fluid fixed-top navbar-expand-lg navbar-light">
         <div className="container-fluid">
             <a className="navbar-brand" href="#" style={{fontWeight:'700',color:'#332C6F'}}>
                <img src={require('../assets/ACMlogo.jfif')} alt="ACM" className="img-fluid" style={{maxHeight:'20%',maxWidth:'20%'}}/>  
@@ -83,4 +83,4 @@ function NavBar(props) {
   )
 }
 
-export default NavBar
+export default NavBarTs
