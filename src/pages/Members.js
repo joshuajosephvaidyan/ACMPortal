@@ -8,8 +8,11 @@ function Members() {
 
   const [APIData,setAPIData] = useState([]);
   const [APIData2,setAPIData2] = useState([]);
+  const [APIData3,setAPIData3] = useState([]);
+
   const ref = firebase.firestore().collection('StudentMembers');
   const ref2 = firebase.firestore().collection('Members');
+  const ref3 = firebase.firestore().collection('WebTeam');
 
   useEffect(() => {
     function getstdetails(){
@@ -30,8 +33,18 @@ function Members() {
        setAPIData2(items2);
       });
     }
+    function getwtdetails(){
+      ref3.onSnapshot((Snapshot) =>{
+        const items3 = [];
+        Snapshot.forEach((doc)=>{
+          items3.push(doc.data());
+        });
+       setAPIData3(items3);
+      });
+    }
     getstdetails()
     gettrdetails()
+    getwtdetails()
   },[]); 
 
   return (
@@ -57,6 +70,20 @@ function Members() {
            <span className="row justify-content-center">
            {
              APIData.map((data)=>{
+                return(
+                  <MembersImage url={data.image} name={data.name} des={data.designation} smlink={data.social}/>
+                )
+             }
+             )
+           }
+           </span>
+        </div>
+
+        <div className="pt-5 row">
+           <span className="h2 d-flex justify-content-center align-items-center pb-4" style={{fontWeight:'bolder',color:'#0093D1'}}>Web developement Team</span>
+           <span className="row justify-content-center">
+           {
+             APIData3.map((data)=>{
                 return(
                   <MembersImage url={data.image} name={data.name} des={data.designation} smlink={data.social}/>
                 )

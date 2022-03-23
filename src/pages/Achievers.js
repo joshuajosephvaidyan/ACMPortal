@@ -30,7 +30,7 @@ function Achievers() {
                {
                   APIData.map((data)=>{
                      return(
-                        <AchieversImage url={data.image} name={data.name} des={data.designation} smlink={data.social}/>
+                        <AchieversImage url={data.image} name={data.name} des={data.designation} smlink={data.social} contest={data.contest} contestachievement={data.contestachievement}/>
                      )
                   }
                   )
